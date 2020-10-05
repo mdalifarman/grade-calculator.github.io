@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--====== Title ======-->
+    <title>Grade Calculator</title>
+    <!--====== Google Fonts ======-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--====== Bootstrap css ======-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--====== Style css ======-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero starts -->
+    <section class="hero_wrap">
+        <div class="calc_box">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="box_title">Student Grade Calculator</h1>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" class="calc_form">
+                        <div class="form-group">
+                            <label for="bang">Bangla</label>
+                            <input name="bang" id="bang" class="inp_val" type="text" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eng">English</label>
+                            <input name="eng" id="eng" class="inp_val" type="number" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phy">Physics</label>
+                            <input name="Phy" id="phy" class="inp_val" type="number" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="chem">Chemistry</label>
+                            <input name="chem" id="chem" class="inp_val" type="number" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="math">Mathematics</label>
+                            <input name="math" id="math" class="inp_val" type="number" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bio">Biology</label>
+                            <input name="bio" id="bio" class="inp_val" type="number" placeholder="Type Your Marks here" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="submit_btn" type="submit">Calculate Grade</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <!-- <h6  class="Result_title">Your Result</h6> -->
+                    <div class="calc_result">
+                        <div class="result_title">
+                            <h6>Subject</h6>
+                            <h6>Grade</h6>
+                            <h6>Grade Point</h6>
+                        </div>
+                        <div class="result_item">
+                            <p>Bangla</p>
+                            <p class="bang_grade"></p>
+                            <p class="bang_num"></p>
+                        </div>
+                        <div class="result_item">
+                            <p>English</p>
+                            <p class="eng_grade"></p>
+                            <p class="eng_num"></p>
+                        </div>
+                       
+                        <div class="result_item">
+                            <p>Physics</p>
+                            <p class="phy_grade"></p>
+                            <p class="phy_num"></p>
+                        </div>
+                        <div class="result_item">
+                            <p>Chemistry</p>
+                            <p class="chem_grade"></p>
+                            <p class="chem_num"></p>
+                        </div>
+                         <div class="result_item">
+                            <p>Mathematics</p>
+                            <p class="math_grade"></p>
+                            <p class="math_num"></p>
+                        </div>
+                        <div class="result_item">
+                            <p>Biology</p>
+                            <p class="bio_grade"></p>
+                            <p class="bio_num"></p>
+                        </div>
+                        <!-- <div class="result_item">
+                            <p>Total Number</p>
+                            <p class="total_num"></p>
+                        </div> -->
+                        <div class="result_item">
+                            <p>GPA</p>
+                            <p class="total_gradepoint"></p>
+                            <p class="total_GPA"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Hero Ends -->
+    <!--====== jquery js ======-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--====== Main js ======-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

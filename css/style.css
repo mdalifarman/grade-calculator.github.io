@@ -1,0 +1,197 @@
+/* Base CSS */
+
+:focus,
+button:focus {
+    outline: 0;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a,
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    box-shadow: none;
+}
+
+a {
+    color: #1c223a;
+    text-transform: inherit;
+}
+
+a:hover,
+a :focus {
+    color: #373d46;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+    line-height: 64px;
+    font-weight: 600;
+}
+
+body {
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*-----------------------------------
+        Hero CSS
+----------------------------------*/
+.hero_wrap {
+    height: 100vh;
+    position: relative;
+    background-color: #111A28;
+}
+
+.calc_box {
+    background: #00CF5D;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box_title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.form-group label {
+    min-width: 110px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.form-group input {
+    width: 100%;
+    border: none;
+    height: 37px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+}
+
+.form-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.form-group input::placeholder {
+    opacity: 0.3;
+    font-size: 15px;
+}
+
+.submit_btn {
+    display: inline-block;
+    background: #111A28;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+}
+
+.calc_result h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.result_title,
+.result_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.result_title h6{
+    width: 33%;
+}
+.result_item p{
+    width: 33%;
+}
+.result_title h6:nth-child(2),
+.result_title h6:nth-child(3),
+.result_item p:nth-child(2),
+.result_item p:nth-child(3){
+    text-align: center;
+}
+.result_title h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.result_item{
+    margin-bottom: 19px;
+}
+.result_item p{
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
